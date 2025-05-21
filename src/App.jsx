@@ -1,6 +1,6 @@
 import {useState} from 'react'
 
-export function App() {
+export default function App() {
     const [valor, setValor] = useState(100)
     const [mostrar, setMostrar] = useState(true)
 
